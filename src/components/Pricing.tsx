@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Check } from 'lucide-react';
+import { BrowserRouter as Router,Link } from 'react-router-dom';
 
 const packages = [
   {
@@ -79,8 +80,8 @@ export default function Pricing() {
                   </li>
                 ))}
               </ul>
-              <a
-                href="/order"
+              <Link
+                to="/order"
                 className={`mt-8 block text-center py-3 px-6 rounded-lg font-semibold transition-colors ${
                   pkg.popular
                     ? 'bg-blue-600 text-white hover:bg-blue-700'
@@ -88,7 +89,7 @@ export default function Pricing() {
                 }`}
               >
                 Get Started
-              </a>
+              </Link>
             </motion.div>
           ))}
         </div>

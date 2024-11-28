@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <WashingMachine className="w-8 h-8 text-blue-400" />
-              <span className="font-bold text-xl text-white">LaundryPro</span>
+              <span className="font-bold text-xl text-white">ZipFlop</span>
             </div>
             <p className="text-gray-400">
               Your trusted laundry partner in Coimbatore. Making laundry day stress-free, one load at a time.
@@ -55,7 +55,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} LaundryPro. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ZipFold. All rights reserved.</p>
         </div>
       </div>
     </footer>

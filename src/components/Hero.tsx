@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Sparkles } from 'lucide-react';
+import { BrowserRouter as Router,Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -40,10 +41,10 @@ export default function Hero() {
           transition={{ delay: 0.8 }}
           className="flex justify-center gap-4"
         >
-          <a href="/order" className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors flex items-center gap-2">
+          <Link to="/order" className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors flex items-center gap-2">
             <Sparkles className="w-5 h-5" />
             Order Now
-          </a>
+          </Link>
         </motion.div>
       </div>
     </motion.section>

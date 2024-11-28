@@ -56,7 +56,7 @@ export default function OrderForm() {
       `Address: ${customerData.address}\n\n` +
       `📋 *Order Details*\n${orderDetails}\n\n` +
       `💰 *Total Amount:* ₹${calculateTotal()}\n\n` +
-      `Thank you for choosing LaundryPro!`;
+      `Thank you for choosing ZipFold!`;
     
     // Simulate API call delay
     await new Promise(resolve => setTimeout(resolve, 1000));

@@ -17,7 +17,7 @@ export default function Hero() {
           transition={{ delay: 0.2 }}
           className="text-4xl md:text-6xl font-bold text-gray-900 mb-6"
         >
-          We Connect. They Clean. </br>You Relax
+          Laundry is a Chore. We Make it No More!
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}

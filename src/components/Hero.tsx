@@ -25,7 +25,7 @@ export default function Hero() {
           transition={{ delay: 0.4 }}
           className="text-xl md:text-2xl text-gray-600 mb-8"
         >
-          Clean Clothes, Zero Hassle!
+          We connect you with trusted local laundry services – so you can focus on what matters most.
         </motion.p>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}

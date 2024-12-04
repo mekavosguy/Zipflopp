@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="font-bold text-xl text-white">ZipFlop</span>
             </div>
             <p className="text-gray-400">
-              Your trusted laundry partner in Coimbatore. Making laundry day stress-free, one load at a time.
+              Your trusted laundry partner in Banglore. Making laundry day stress-free, one load at a time.
             </p>
           </div>
 

@@ -7,7 +7,7 @@ const packages = [
     name: "Regular Laundry",
     price: 20,
     description: "Delivery in 48 Hours",
-    features: ["Min 5 piece","T-shirts", "Pants", "Shirts", "Inner t-shirts",
+    features: ["Min 5 piece","T-shirts", "Pants", "Shirts", "Inner t-shirts", 
       "exclusive of delivery charges"
     ]
   },
